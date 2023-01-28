@@ -331,6 +331,8 @@ function get_coords(event){
                         
                 animate_square(square);
                 
+                sound1.play();
+                
                 square.painted = true;
                 
                 flag_computer_turn = false;
@@ -358,6 +360,8 @@ function get_coords(event){
                 players_divs[1].className = "players_active_div";
 
         		computer_turn();
+        		
+        		sound2.play();
         }  
 				
 		return;      
@@ -509,6 +513,8 @@ function computer_turn(){
    				 	players_divs[0].className = "players_active_div";
         
     				ismyturnflag = true;
+    				
+    				sound3.play();
     }else{
     
     //if there is no option, calculate costs
@@ -557,6 +563,8 @@ function computer_turn(){
     				players_divs[0].className = "players_active_div";
         
     				ismyturnflag = true;
+    				
+    				sound3.play();
     }
     
     
@@ -833,8 +841,9 @@ function any_square(the_line){
                             players_dom_scores[1].innerText = parseInt(players_dom_scores[1].innerText) + 1;
                     
                             animate_square(square);
+                            
+                            sound4.play();
                         }
-                    
                 }
             })
         })    
@@ -872,6 +881,8 @@ function computer_double(double_result){
                         players_dom_scores[1].innerText = parseInt(players_dom_scores[1].innerText) + 1;
                     
                         animate_square(square);
+                        
+                        sound4.play();
                     
                 }
             })

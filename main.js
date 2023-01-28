@@ -68,6 +68,14 @@ let new_name_input;
 
 let ufo;
 
+let sound1;
+
+let sound2;
+
+let sound3;
+
+let sound4;
+
 window.addEventListener("load", charge);
 
 function charge(){
@@ -105,6 +113,14 @@ function charge(){
     modal_name = document.getElementById("modal_name");
     
     new_name_input = document.getElementById("new_name_input");
+    
+    sound1 = document.getElementById("sound1");
+    
+    sound2 = document.getElementById("sound2");
+    
+    sound3 = document.getElementById("sound3");
+    
+    sound4 = document.getElementById("sound4");
     
     ufo = document.getElementById("ufo");
     
