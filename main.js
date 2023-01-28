@@ -155,7 +155,7 @@ function charge(){
     
     window.scrollTo({
     
-        top: document.body.scrollHeight,
+        top: 0,
         behavior: "smooth"
     });
 }
