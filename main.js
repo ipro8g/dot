@@ -152,6 +152,12 @@ function charge(){
     intro();
     
     render_game();
+    
+    window.scrollTo({
+    
+        top: document.body.scrollHeight,
+        behavior: "smooth"
+    });
 }
 
 function intro_strokes(){
