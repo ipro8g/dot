@@ -4242,10 +4242,38 @@ const aspect_relations =
             "offset":2
         },
         {
+            "factor":(1024/386),
+            "offset":2.2
+        },
+		{
+			"factor":(1024/695),
+			"offset":2.333
+		},
+		{
+			"factor":(820/1180),
+			"offset":0
+		},
+		{
+			"factor":(1180/820),
+			"offset":3.6
+		},
+		{
+			"factor":(768/810),
+			"offset":2.8
+		},
+		{
+			"factor":(810/768),
+			"offset":2.6
+		},
+		{
+			"factor":(1024/768),
+			"offset":2.8
+		},
+        {
             "factor":1,
             "offset":2
         }
-];                                            
+];                                             
                                             
 function gen_matrix(op){
 
