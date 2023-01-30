@@ -547,6 +547,18 @@ function printMousePos2(event){
   }else if(innerWidth === 425 && innerHeight === 768){
 	
 	y_offset = innerWidth/3.9;
+  }else if(innerWidth === 1368 && innerHeight === 912){
+	
+	y_offset = innerWidth/6;
+  }else if(innerWidth === 540 && innerHeight === 720){
+	
+	y_offset = innerWidth/2.4;
+  }else if(innerWidth === 720 && innerHeight === 540){
+	
+	y_offset = innerWidth/1.8;
+  }else if(innerWidth === 1024 && innerHeight === 600){
+	
+	y_offset = innerWidth/1.9;
   }
 
   let pure = document.getElementById('pure');
