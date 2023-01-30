@@ -537,6 +537,17 @@ function printMousePos2(event){
     
         y_offset = (innerWidth/aspect_relations[min_index].offset);
     }
+	
+  if(innerWidth === 1024 && innerHeight === 768){
+	
+	y_offset = innerWidth/2.8;
+  }else if(innerWidth === 768 && innerHeight === 1024){
+	
+	y_offset = innerWidth/10;
+  }else if(innerWidth === 425 && innerHeight === 768){
+	
+	y_offset = innerWidth/3.9;
+  }
 
   let pure = document.getElementById('pure');
   pure.style.position = "absolute";
