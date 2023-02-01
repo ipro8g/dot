@@ -514,7 +514,7 @@ function new_name(){
 
 function go_multiplayer(){
 
-    alert("go multiplayer server");
+	window.location.href = "https://dots-9cxf.onrender.com/";
 }
 
 // CLICK FLASH EFFECT
