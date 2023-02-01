@@ -504,6 +504,12 @@ function new_name(){
     modal_first.style.display = "block";
     
     closeModal();
+	
+    window.scrollTo({
+    
+        top: document.body.scrollHeight,
+        behavior: "smooth"
+    });	
 }
 
 function go_multiplayer(){
