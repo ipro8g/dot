@@ -513,8 +513,8 @@ function new_name(){
 }
 
 function go_multiplayer(){
-
-	window.location.href = "https://dots-9cxf.onrender.com/";
+	
+	window.open("https://dots-9cxf.onrender.com/", "_blank"); 
 }
 
 // CLICK FLASH EFFECT
